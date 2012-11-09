@@ -13,6 +13,8 @@ h4. Running as a plugin of ElasticSearch (this is the preferred method)
 * @elasticsearch/bin/plugin -install Aconex/elasticsearch-head@
 * @open http://localhost:9200/_plugin/head/@
 
+(note the trailing / in the above URL is not optional)
+
 This will automatically download the latest version of elasticsearch-head from github and run it as a plugin within the elasticsearch cluster. In this mode;
 * elasticsearch provides a simple webserver to run head
 * elasticsearch-head automatically connects to the node that is running it
